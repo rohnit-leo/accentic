@@ -155,7 +155,13 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center text-white/60 text-sm">
-          <p>&copy; {new Date().getFullYear()} Accentic Digital Solutions. All rights reserved.</p>
+          <p className="mb-2">&copy; {new Date().getFullYear()} Accentic Digital Solutions. All rights reserved.</p>
+          <p>
+            Developed by{" "}
+            <Link href="https://nexturex.com" className="text-indigo font-semibold hover:underline">
+              NextureX
+            </Link>
+          </p>
         </div>
       </div>
     </motion.footer>
